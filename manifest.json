@@ -1,0 +1,10 @@
+﻿{
+  "Name": "TeleportNpc",
+  "Author": "Enaium",
+  "Version": "1.0.0",
+  "Description": "Teleport to Npc",
+  "UniqueID": "Enaium.TeleportNpc",
+  "EntryDll": "TeleportNpc.dll",
+  "MinimumApiVersion": "3.7.5",
+  "UpdateKeys": ["GitHub:Enaium-StardewValleyMods/TeleportNpc"]
+}
