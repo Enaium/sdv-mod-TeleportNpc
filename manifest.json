@@ -5,6 +5,6 @@
   "Description": "Teleport to Npc",
   "UniqueID": "Enaium.TeleportNpc",
   "EntryDll": "TeleportNpc.dll",
-  "MinimumApiVersion": "3.7.5",
+  "MinimumApiVersion": "3.7.0",
   "UpdateKeys": ["GitHub:Enaium-StardewValleyMods/TeleportNpc"]
 }
