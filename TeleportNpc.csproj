@@ -48,6 +48,7 @@
     <ItemGroup>
         <Compile Include="Framework\Config.cs" />
         <Compile Include="Framework\Gui\TeleportNpcScreen.cs" />
+        <Compile Include="Framework\Screen\Elements\NpcButton.cs" />
         <Compile Include="ModEntry.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Characters;
 using StardewValley.Monsters;
+using TeleportNPC.Framework.Screen.Elements;
 
 namespace TeleportNPC.Framework.Gui
 {
@@ -18,9 +19,9 @@ namespace TeleportNPC.Framework.Gui
                     continue;
                 Point tile = npc.getTileLocationPoint();
 
-                AddElement(new Button(
+                AddElement(new NpcButton(
                     $"{ModEntry.GetInstance().Helper.Translation.Get("button.teleport")}{npc.displayName}",
-                    $"{ModEntry.GetInstance().Helper.Translation.Get("button.teleport")}{npc.displayName}")
+                    $"{ModEntry.GetInstance().Helper.Translation.Get("button.teleport")}{npc.displayName}", npc)
                 {
                     OnLeftClicked = () => { Teleport(npc.currentLocation.Name, tile.X, tile.Y); }
                 });
