@@ -12,7 +12,7 @@
   "Dependencies": [
     {
       "UniqueID": "Enaium.EnaiumToolKit",
-      "MinimumVersion": "1.6.0"
+      "MinimumVersion": "1.8.0"
     }
   ],
   "Custom": {

@@ -1,8 +1,9 @@
 ﻿using StardewModdingAPI;
+using StardewModdingAPI.Utilities;
 
 namespace TeleportNpc.Framework;
 
 public class Config
 {
-    public SButton OpenTeleport { get; set; } = SButton.B;
+    public KeybindList OpenTeleport { get; set; } = new(SButton.B);
 }
